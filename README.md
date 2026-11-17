@@ -1,2 +1,4 @@
-# maker-agent
-PMCR-O maker-agent marketplace agent repository
+# Maker Agent
+
+Canonical plugin: `maker`.
+Human handle: `@maker-agent`.
