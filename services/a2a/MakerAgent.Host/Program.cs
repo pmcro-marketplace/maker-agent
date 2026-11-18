@@ -5,8 +5,6 @@ using Microsoft.Extensions.AI;
 
 const string AgentName = "maker-agent";
 const string A2APath = "/a2a/maker";
-const string CorrelationPrefix = "PMCRO_CORRELATION ";
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddKeyedSingleton<AIAgent>(AgentName, (services, _) =>
@@ -58,6 +56,7 @@ app.Run();
 
 internal sealed class CorrelationProofChatClient : IChatClient
 {
+    private const string CorrelationPrefix = "PMCRO_CORRELATION ";
     private const string Disposition =
         "NOT_INVOKED: A2A transport reached maker-agent; real Make execution and actuator MCP access are not connected in this CI proof.";
 
