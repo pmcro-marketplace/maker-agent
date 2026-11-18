@@ -1,6 +1,6 @@
 ---
 name: make
-description: Produce the authorized artifact or state change using the narrowest real creator or provider capability.
+description: Produce the authorized artifact or state change using the narrowest real creator or provider capability. USE FOR executing the approved Make scope and producing actual mutation or output evidence. DO NOT USE FOR planning, final verification, reflection, or global orchestration; use the corresponding PMCR-O role.
 ---
 # make
 
@@ -33,4 +33,4 @@ A PASS requires actual evidence. An emitted invocation, route, plan, or declared
 Emission is not invocation. The installed Hook Agent may surround this role but does not replace its business function.
 
 ## Resources
-See `references/contract.md` and `assets/request.json`.
+See `references/contract.md`, `assets/request.json`, and `scripts/validate.py`.
